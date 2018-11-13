@@ -1,0 +1,60 @@
+#main-container {
+  display: flex;
+  justify-content: center;
+}
+#middle-container {
+  margin-top: 50px;
+}
+#main {
+  width: 750px;
+  padding-bottom: 30px;
+}
+.menu-buttons {
+  align-self: flex-end;
+  margin-left: 450px;
+  display: flex;
+}
+.modalOverlay {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
+.left {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  order: 1;
+  z-index: 5;
+  height: 50vh;
+  width: 5%;
+}
+.left svg {
+  height: 50px;
+  width: 50px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  order: 3;
+  height: 50vh;
+  width: 5%;
+  z-index: 5;
+}
+.right svg {
+  height: 50px;
+  width: 50px;
+}
+.currImage {
+  order: 2;
+  z-index: 1;
+  object-fit: contain;
+  height: 80vh;
+  width: 80%;
+}
+body {
+  margin: 0 10%;
+}
