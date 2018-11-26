@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server.js"
+    "start": "nodemon ./server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.2",
-    "morgan": "^1.9.0"
+    "newrelic": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
