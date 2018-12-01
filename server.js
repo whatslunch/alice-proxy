@@ -14,7 +14,7 @@ app.get('/loaderio-87911a3a551502cb94679df640ae45aa', (req, res) => {
   res.sendFile(path.join(__dirname, '.loaderio-87911a3a551502cb94679df640ae45aa.txt'));
 });
 
-app.get('/:id', (req, res) => {
+app.get('/nomnoms/:id', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
