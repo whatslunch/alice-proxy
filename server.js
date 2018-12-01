@@ -10,6 +10,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/loaderio-87911a3a551502cb94679df640ae45aa', (req, res) => {
+  res.sendFile(path.join(__dirname, '.loaderio-87911a3a551502cb94679df640ae45aa.txt'));
+});
 
 app.get('/:id', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/index.html'));
